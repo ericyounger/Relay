@@ -1,0 +1,101 @@
+
+/* MAIN CONTAINERS */ 
+.downloadContainer{
+    width:100vw;
+    height:100vh;
+    margin: 0 auto;
+    display: flex; /* or inline-flex */
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width:500px;
+  }
+
+  .modalContainer {
+    width:100vw;
+    height:100vh;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex; /* or inline-flex */
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width:542px;
+    outline: 0 !important;
+  }
+  
+  input[type=password]{
+    background-color:rgba(0, 0, 0, 0.2);
+    padding:0px 15px;
+    height: 50px;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 7px;
+    border: 1px solid  #908F8F;
+    color: #1A85A7;
+  }
+
+  input[type=password]:focus {
+    outline: none;
+    border: 1px solid #1A85A7;
+  }
+
+
+  /* Download Modal layout */ 
+
+.modalContainer h1{
+  font-size: 48px;
+    margin: 0px 0px;
+  }
+  
+  .modalContainer span{
+    font-size: 24px;
+    font-weight: lighter;
+    margin: 25px 0px;
+  }
+  
+  
+
+  /* general classes */ 
+
+.infotext {
+    margin:15px;
+}
+
+.progressBar{
+    position: relative;
+    margin:25px 0px;  
+  }
+
+  .cyan {
+    background: #157B82 !important;
+  }
+
+  .justify-content-right {
+    justify-content: flex-end;
+    justify-self: flex-end;
+    align-items: flex-end;
+  }
+
+  .customModalBtn {
+    height: 50px;
+    margin-top: 15px !important;
+  }
+  
+.time-remaining-download {
+  margin: 10px 0px;
+}
+
+.percentage-downloaded {
+  font-size: 64px;
+  height: 100px;
+  width: 200px;
+
+  top: 37%;
+  left:33%;
+  text-align: center;
+  margin: 0 auto;
+  position: absolute;
+  display: block;
+
+}
