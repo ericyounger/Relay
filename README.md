@@ -16,11 +16,7 @@ cd server
 npm install
 ```
 
-#### Database setup:
-Uses a MySQL database, see inside folder SQL for creating database tables.
-
-##### Instructions:
-While inside server folder, make a ".env" file and add the environment variables to it:
+While inside server folder, make a ".env" file and add environment variables to it that matches your database setup:
 
 ```
 DB_DATABASE_NAME="database name"
@@ -30,3 +26,7 @@ DB_PASSWORD="password
 DB_PORTNR=8889
 DB_SOCKETPATH=/Applications/MAMP/tmp/mysql/mysql.sock //optional i think?
 ```
+
+#### Database setup:
+Uses a MySQL database, see inside folder SQL for creating database tables.
+
