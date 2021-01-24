@@ -121,3 +121,38 @@ hr{
   margin-top: 50px;
   width:30%;
 }
+
+  /* Responsive Mobile layout */
+
+  @media only screen and (max-width: 600px) {
+    .errorContainer {
+      width:100vw;
+      height:100vh;
+      margin: 0 auto;
+      overflow: hidden;
+      display: flex; /* or inline-flex */
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      max-width:542px;
+      outline: 0 !important;
+    }
+    
+    .errorContainer h1 {
+      font-size: 200px;
+    }
+    
+    .errorContainer span {
+      font-weight: lighter;
+      font-size: 20px;
+    }
+
+    .errorContainer .btn{
+      color: white !important;
+      outline-color: white !important;
+      border-color: white !important;
+      margin:0 auto;
+      margin-top: 50px;
+      width:30%;
+    }
+  }

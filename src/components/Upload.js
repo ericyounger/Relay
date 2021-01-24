@@ -122,7 +122,15 @@ function UploadFiles({onChangeFiles, onShareCallback}){
 			</div>
 			{urlVisible?
 				<div>
-					<input type="text" value={url} ref={urlInputField} onClick={onSelectUrl} className="outlineUploadTextField select-all" />
+					<input 
+						type="text"
+					 	value={url} 
+						ref={urlInputField} 
+						onClick={onSelectUrl} 
+						className="outlineUploadTextField select-all" 
+						readonly="readonly"
+						inputmode='none'
+						/>
 					<Snackbar
 						anchorOrigin={{
 							vertical: "bottom",

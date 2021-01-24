@@ -8,19 +8,23 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    width:500px;
+    max-width:500px;
+    padding:25px;
+
   }
 
   .modalContainer {
     width:100vw;
     height:100vh;
+    
     margin: 0 auto;
     overflow: hidden;
     display: flex; /* or inline-flex */
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    width:542px;
+    max-width:542px;
+    padding:25px;
     outline: 0 !important;
   }
   
@@ -92,7 +96,7 @@
   width: 200px;
 
   top: 37%;
-  left:33%;
+  left:29%;
   text-align: center;
   margin: 0 auto;
   position: absolute;

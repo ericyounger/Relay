@@ -10,25 +10,21 @@
 /* MAIN CONTAINER */
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-  
     gap: 0px 0px;
-    grid-template-areas:
-      "upload-form dowload-status info-bar";
+    grid-template-columns: 1fr 1fr 1fr;
   }
   .upload-form {
-     grid-area: upload-form; 
+    
 
 
     }
   .dowload-status { 
-    grid-area: dowload-status; 
+
 
 
   }
   .info-bar { 
-    grid-area: info-bar; 
+
   }
 
   .fileInput {
@@ -174,13 +170,28 @@
 
   /* Responsive Mobile layout */
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 988px) {
 
     .grid-container {
       display: grid;
       gap: 0px 0px;
-      grid-template-columns: auto;
-      grid-template-areas:
-        "upload-form dowload-status info-bar";
+      grid-template-columns: 1fr;
+    }
+
+    .logo{
+      position: fixed;
+      top:0px;
+      left:50px;
+      font-size: 144px;
+      font-weight: lighter;
+  }
+  }
+
+  @media only screen and (max-width: 1350px) and (min-width: 988px)  {
+
+    .grid-container {
+      display: grid;
+      gap: 0px 0px;
+      grid-template-columns: 1fr 1fr;
     }
   }
