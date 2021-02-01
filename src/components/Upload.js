@@ -31,7 +31,7 @@ function Upload() {
 	}
 
 	function callbackOnShare(identifier){
-		client.seed(files, function (torrent) {
+	    client.seed(files, function (torrent) {
 			const json = {"uuid": identifier, "magnet": `${torrent.magnetURI}`};
 			axios.post("http://localhost:4000/files", json).then(res => console.log(res)).catch(rej => console.log(rej));
 			console.log("Client is seeding " + torrent.magnetURI);

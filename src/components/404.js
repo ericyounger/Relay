@@ -23,7 +23,7 @@ function NotFound(){
 			<span>These are not the files you're looking for.</span>
 			<Button
 				variant="outlined"
-				color="default"
+			    color="default"
 				component="span"
 				className="btn"
 				onClick={onHeadBack}
