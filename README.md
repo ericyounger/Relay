@@ -1,5 +1,7 @@
 # Relay
 
+#### NOTICE: This project is not finished. Lot of bugs and not all functionality added yet, but may come back to this project at a later date.
+
 ## To run:
 
 #### Install dependencies for React:
